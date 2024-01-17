@@ -1,6 +1,11 @@
 # [PhantomJS](http://phantomjs.org) - Scriptable Headless WebKit
 
+This is a Moxi-specific fork of PhantomJS used to get the branding client (wms_branding[wms_branding](https://github.com/moxiworks/wms_branding))
+working with `apdev` on M2 MacBooks. Specifically, Cucumber tests won't run without _some_ JS runtime and this is the best option we have for now.
+
+
 PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript.  The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1.
+
 
 **Important**: PhantomJS development is suspended until further notice (see [#15344](https://github.com/ariya/phantomjs/issues/15344) for more details).
 
